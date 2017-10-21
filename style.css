@@ -1,0 +1,86 @@
+.rectangulo_XL{
+  width: 1000px;
+  height: 500px;
+  margin: 10px;
+  background-color:#5cb85c;
+  position: relative;
+}
+
+.rectangulo_L {
+  width: 950px;
+  height: 450px;
+  border: 3px solid white;
+  background-color:#5cb85c;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.rectangulo_M_Left {
+  width: 100px;
+  height: 200px;
+  border: 3px solid white;
+  background-color:#5cb85c;
+  position: absolute;
+  top: 150px;
+  left: 25px;
+}
+
+.rectangulo_M_Right {
+  width: 100px;
+  height: 200px;
+  border: 3px solid white;
+  background-color:#5cb85c;
+  position: absolute;
+  top: 150px;
+  left: 875px;
+}
+
+.circulo {
+     width: 200px;
+     height: 200px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 3px solid white;
+     background: #5cb85c;
+     position: absolute;
+     top: 150px;
+     left: 400px;
+}
+
+.ball1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/ball.png);
+  background-size: 100%;
+  position: absolute;
+  top: 152px;
+  bottom: 0;
+  right: 0;
+  left: 106px;
+}
+
+.ball2 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/ball.png);
+  background-size: 100%;
+  position: absolute;
+  top: 75px;
+  bottom: 0;
+  right: 0;
+  left: 500px;
+}
+
+.ball3 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/ball.png);
+  background-size: 100%;
+  position: absolute;
+  top: 315px;
+  bottom: 0;
+  right: 0;
+  left: 840px;
+}
